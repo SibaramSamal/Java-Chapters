@@ -1,0 +1,38 @@
+These are the predefined reserved words having some specialised instructions for each type.
+
+1.File creation----------------------------- (3)
+	class,interface,enum(v1.5)
+	
+2.Package level ---------------------------- (2)
+	package,import
+	
+3.Accessible modifiers --------------------- (3)
+	public,private,protected
+	
+4.Modifiers -------------------------------- (7)
+	static,abstract,final,native,transient,volatile,synchonise,strictfp
+	
+5.Datatypes -------------------------------- (8 + 1)
+	byte,short,int,long,float,double,char,boolean
+	void (only for return type)
+	
+6.Memory allocation ------------------------ (2)
+	static,new
+	
+7.Controlling keywords --------------------- (11)
+	if,else,switch,case,default
+	while,do,for
+	return,continue,break
+	
+8.Class relations -------------------------- (2)
+	extends,implements
+	
+9.Object representation -------------------- (3)
+	this,super,instanceof
+	
+10.Exception Handling ---------------------- (6)
+	try,catch,finally,throw,throws,assert
+	
+11.Unimplemented reserved words ------------ (2)
+	goto,const
+									total -  50	

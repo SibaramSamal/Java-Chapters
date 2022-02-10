@@ -1,0 +1,33 @@
+Defn:
+	The classes which  represents the premetive data types as object.
+Separate wrapper classes are there for each type of premitive type. Among all, 6 are numeric type which are sub class of Number class.
+Each wrapper class having xxxValue() to return the internal premitive value of that object.
+	
+Template of Integer Class:	
+===========================		
+public final Integer extends Number{
+	private final int value;
+	public Integer(int value){
+		this.value = value;
+	}
+}	
+we can instantiate wrapper class object in two ways.
+	1.Using constructors (deprecated)
+	2.Using valueOf(premitive Dta type) 
+	
+ (object instanciateUsing constructor)	|	(using valueOf())
+ 		Integer i = new Integer(5);		|	Integer i = Integer.valueOf();
+ 							
+to get the value of the objects we have these methods.
+
+		Byte - public byte byteValue();
+		Short - public short shortValue();
+		
+		Integer - public abstract int intValue();
+		Long - public abstract int intValue();
+		Float - public abstract int intValue();
+		Double - public abstract int intValue();
+		
+		Character - public char charValue();
+		Boolean - public boolean booleanValue();
+Number class is an abstract class and these methods are implemented in it's sub classes(Wrapper Classes)
