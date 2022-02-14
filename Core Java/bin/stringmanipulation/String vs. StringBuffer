@@ -1,0 +1,9 @@
+Both String and StringBuffer class are final classes.
+
+1. 
+	We can create String class object in two ways using new keyword and without using new keyword, but can create object of StringBuffer object using only new keyword.
+	private static String name = "Sibaram Samal";
+	private static String clg = new String("NIST");
+	
+2.
+	
