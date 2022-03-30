@@ -15,5 +15,4 @@ public class SU_ConstructoChaining {
 	public static void main(String[] args) {
 		SU_ConstructoChaining obj = new SU_ConstructoChaining();
 	}
-
 }
