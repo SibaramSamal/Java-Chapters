@@ -20,6 +20,6 @@ public class UpcastingDemo {
 		A obj = new C();
 		B obj2 = new B();
 		System.out.println(obj.x);	//50
-		obj2.showData((A)obj2);	//upcasting
+		obj2.showData(obj2);	//upcasting
 	}
 }
