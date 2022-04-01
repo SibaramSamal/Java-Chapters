@@ -11,9 +11,15 @@ class B extends A{
 	void showData(A obj) {
 		System.out.println(obj.x);
 	}
+	void enhancedShowData() {	//this method will show us how we can access all the parent class properties
+		System.out.println("A class value of x:"+((A)this).x); 	//50
+	}
 }
 class C extends B{
 	int x = 150;
+	{
+		System.out.println("B class x = "+((B)this).x);
+	}
 }
 public class UpcastingDemo {
 	public static void main(String[] args) {
