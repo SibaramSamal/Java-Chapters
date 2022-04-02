@@ -8,7 +8,8 @@ class TVS{
 	}
 	TVS run() {
 		System.out.println("Bike is running");
-		return new TVS();
+		//return new TVS();
+		return this;
 	}
 	{
 		System.out.println("TVS init");
@@ -22,7 +23,8 @@ class Apache extends TVS{
 	}
 	Apache run() {
 		System.out.println("Apache is running");
-		return new Apache();
+		//return new Apache();
+		return this;
 	}
 	{
 		System.out.println("Apache");
