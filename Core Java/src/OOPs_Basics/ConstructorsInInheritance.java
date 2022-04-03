@@ -21,11 +21,13 @@ class Vehicle{
 }
 class Car extends Vehicle{
 	Car(){
-		super(5);	//calls it's parent class(Vehicle class's) default contructor
+		this(5,"h");
+		//super(5);	//calls it's parent class(Vehicle class's) default contructor
 		System.out.println("Car 0 param constructor");
 	}
 	Car(int x,String y){
 		super(5);
+		//this();
 		System.out.println("Car 2 param constructor");
 	}
 }
