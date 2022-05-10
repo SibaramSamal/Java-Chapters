@@ -2,7 +2,7 @@ package multithreading;
 
 class MyThread extends Thread{
 	MyThread(String str){
-		super(str);
+		super(str);	//calling Thread(String) 
 	}
 	public void run() {
 		System.out.println("Thread is running...");
