@@ -21,6 +21,6 @@ class Temp{
 		return "Temp class";
 	}
 	public void finalize() {
-		System.out.println("Finalize method is called...");
+		System.out.println("Finalize method is called... object is destroyed");
 	}
 }
